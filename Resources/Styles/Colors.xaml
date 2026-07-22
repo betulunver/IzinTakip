@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xaml-comp compile="true" ?>
+<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+    <!-- İÜC Premium Koyu Tema -->
+    <Color x:Key="Primary">#c6a24e</Color>
+    <Color x:Key="PrimaryLight">#d8bd78</Color>
+    <Color x:Key="PrimaryDark">#a8883e</Color>
+
+    <Color x:Key="AppBackground">#0e1d30</Color>
+    <Color x:Key="AppBackgroundLight">#1a3050</Color>
+    <Color x:Key="Lacivert">#13263d</Color>
+
+    <Color x:Key="SurfaceColor">#172a40</Color>
+    <Color x:Key="CardBackground">#1c3148</Color>
+    <Color x:Key="InputBackground">#162638</Color>
+    <Color x:Key="InputBorder">#2a4058</Color>
+    <Color x:Key="InputBorderActive">#c6a24e</Color>
+
+    <Color x:Key="TextWhite">#ffffff</Color>
+    <Color x:Key="TextLight">#a7b6c6</Color>
+    <Color x:Key="TextMuted">#7e93a8</Color>
+    <Color x:Key="TextGold">#c6a24e</Color>
+
+    <!-- Durum Renkleri -->
+    <Color x:Key="StatusPending">#e0b75e</Color>
+    <Color x:Key="StatusPendingBg">#2a2518</Color>
+    <Color x:Key="StatusApproved">#5fcb9b</Color>
+    <Color x:Key="StatusApprovedBg">#1a2e25</Color>
+    <Color x:Key="StatusRejected">#e8857b</Color>
+    <Color x:Key="StatusRejectedBg">#2e1c1a</Color>
+    <Color x:Key="SuccessGreen">#4fcf97</Color>
+    <Color x:Key="ErrorRed">#d6584c</Color>
+    <Color x:Key="WeekendRed">#c98b82</Color>
+
+    <Color x:Key="White">White</Color>
+    <Color x:Key="Black">Black</Color>
+
+    <Color x:Key="Gray100">#E1E1E1</Color>
+    <Color x:Key="Gray200">#C8C8C8</Color>
+    <Color x:Key="Gray300">#ACACAC</Color>
+    <Color x:Key="Gray400">#919191</Color>
+    <Color x:Key="Gray500">#6E6E6E</Color>
+    <Color x:Key="Gray600">#404040</Color>
+    <Color x:Key="Gray900">#212121</Color>
+    <Color x:Key="Gray950">#141414</Color>
+
+    <SolidColorBrush x:Key="PrimaryBrush" Color="{StaticResource Primary}"/>
+    <SolidColorBrush x:Key="WhiteBrush" Color="{StaticResource White}"/>
+    <SolidColorBrush x:Key="BlackBrush" Color="{StaticResource Black}"/>
+</ResourceDictionary>
