@@ -7,8 +7,8 @@ workflows:
     environment:
       xcode: 26.6
       vars:
-        DOTNET_PATH: $CM_BUILD_DIR/dotnet
-        DOTNET: $CM_BUILD_DIR/dotnet/dotnet
+        DOTNET_PATH: $HOME/dotnet
+        DOTNET: $HOME/dotnet/dotnet
 
     scripts:
       - name: Install .NET 10 SDK
